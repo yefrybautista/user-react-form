@@ -34,7 +34,6 @@ export default function RegisterUserForm() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
     [formData, submitUserData]
   );
-
   return (
     <BoxContent title={isSuccess ? undefined : "Create a New User"}>
       {isSuccess ? (
